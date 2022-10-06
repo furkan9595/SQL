@@ -1,0 +1,30 @@
+SUBQUERY : İÇ İÇE SELECT KAVRAMI DEMEKDİR.
+
+sqlde performans çok önemlidir bu yüzden nerede join nerede subquery kullanacağımızı bilmemiz gerekiyor. 
+Sql veritabanı yada  veritabanları sistemleri okuma yazma yapan sistemlerdir. Asıl işi datayı almak ve kullanıcının
+istediği hale getirir. Subquery  kullanacaksak sorgu sayısı az olmalı çünkü  subquery ile join arasında performans olarak 
+fark var JOIN subqueryden daha hızlı. Okudukları veri ile de fark var. subquery daha fazla veri okuyoor tekrar ediyor 
+ve performans olarak daha düşük .
+
+Örnek : 
+SELECT ITM.ITEMCODE AS URUNKODU ,ITM.ITEMNAME AS URUNADI, 
+(SELECT MIN(UNITPRICE) FROM ORDERDETAILS WHERE ITEMID=ITM.ID) AS ENDUSUKFIYAT
+FROM ITEMS ITM ORDER BY ITM.ITEMNAME
+
+
+
+örnek : 
+
+SELECT T.TOWN,
+
+(SELECT MIN(DISTRICT) FROM DISTRICTS D WHERE D.TOWN_ID=T.ID  ) AS ILCELER  
+
+FROM TOWNS T ORDER BY TOWN
+
+örnek : 
+SELECT T.TOWN,
+
+(SELECT MIN(DISTRICT) FROM DISTRICTS D WHERE D.TOWN_ID=T.ID  ) AS ILCELER ,
+(SELECT MAX(DISTRICT) FROM DISTRICTS D WHERE D.TOWN_ID=T.ID )
+
+FROM TOWNS T ORDER BY TOWN
