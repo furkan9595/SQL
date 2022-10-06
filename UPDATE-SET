@@ -9,3 +9,10 @@ UPDATE CUSTOMER SET GENDER='ERKEK' WHERE GENDER='E'
 
 Örnek :
 UPDATE CUSTOMER SET GENDER='KIZ' WHERE GENDER='K'
+
+Örnek : 
+
+UPDATE CUSTOMER SET NATION='TR' , AGE=DATEDIFF(YEAR,BIRTDATE,GETDATE())
+
+Not : DATEDIFF komutu iki tarih arasındaki farklı alır.
+GETDATE() komutu ise o anki tarihi alır.
