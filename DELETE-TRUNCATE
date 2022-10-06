@@ -1,0 +1,18 @@
+DELETE : 
+Bir tablodan verileri silmek için kullanılmaktadır.
+
+DELETE TABLE TABLO_ADI şeklinde kullanılmaktadır.
+
+Örnek : 
+DELETE FROM CUSTOMERS WHERE CUSTOMERNAME='Furkan KALKAN';
+
+TRUNCATE :
+Tabloyu ilk oluştuduğumuz hale dönüştürür. TRUNCATE işlemi DELETE işleminden daha hızlıdır. DELETE komutu ile tablo silinir ancak yeni ü
+bir veri girdiğimizde örneğin id 'si kaldığı yerden devam eder. Ancak TRUNCATE komutu ile tablo yenilenir ve yeni bir tablo oluşturmuş gibi 
+id numarası 1'den başlar.
+
+TRUNCATE TABLE TABLO_ADI şeklinde kullanılır.
+
+Örnek : 
+
+TRUNCATE TABLE CUSTOMERS;
