@@ -1,0 +1,11 @@
+AND VE OR : 
+AND : 
+İki koşuldan ikiside doğru olmalı ki kod çalışması gerekiyor.
+
+Örnek :
+SELECT *FROM CUSTOMERS WHERE CITY=’İSTANBUL’ AND DISTRICT=’EYÜP’ HEM ŞEHRİ İSTANBUL HEMDE İLÇESİ  EYÜP OLANLARI GETİR İKİ KOŞULUDA SAĞLAYACAK
+
+OR : İki koşuldan bir tanesi doğru olması durumunda kod çalışmaktadır.
+
+Örnek : 
+SELECT *FROM CUSTOMERS WHERE CITY=’İSTANBUL’ OR CITY=’İZMİR’ ŞEHRİ İSTANBUL YADA İZMİR OLANLARI GETİRECEK YANİ BİRLEŞİMİNİ GETİRECEK.
