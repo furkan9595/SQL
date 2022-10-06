@@ -1,0 +1,16 @@
+SQL nedir ?
+SQL veritabanı , ingilizcesi structured Query Language kelimelerinden oluşmaktadır. Bir veritabanındaki verileri sorguladığımız bir çeşit kodlama dilidir. Türkçesi yapılandırılmış sorgu dilide denmektedir. Sql , veritabanlarında veri depolama,veri işlemek ve veri almak için standart bir dildir. Sql , veritabanlarına erişip verileri değiştirmemize olanak sağlar. 
+
+Veritabanı : 
+Temel anlamda içerisinde belli bir formatta sorgulanabilir şekilde veri barındıran yazılımlardır. Listeler tablo ve satırlarda tutan her yapı aslında kendi çapında bir veritabanıdır.  Temelde tablolar,sütunlar,satırlar ve indexlerden oluşmaktadır. 
+Veritabanı Sunucusu : 
+Bir yazılımdır. Network üzerinde bir porttan sistemi dinler gelen komutlara göre istenilen veriyi gönderir. Sql Server,Mysql,Postgresql Oracle örnekleri verilebilir. Microsoft Access ve excel sadece veritabanıdır. 
+SQL ile ne yapılabilir ? 
+Bir veritabanında sorgu yapabilirsiniz. Bir veritabanından veri alabilir ve kayıt edebilirsiniz. Kayıtları güncelleyebilir ve silebilirsiniz. Yeni tablolar oluşturabilirsiniz. 
+
+RDBMS (Relational Database Management System) : 
+İlişkisel veritabanı yönetim sistemidir. RDBMS ‘deki veriler tablolar  adı verilen veritabanı nesnelerinde depolanır. Tablolar sütun ve satırlardan oluşmaktadır. RDBMS, tekrar eden verileri tekilleştirmek amacı ile yapılandırılan veritabanı sistemleridir. 
+SQL Komutları : 
+Temel olarak ikiye ayrılır .
+1.Veri Manipulasyon Komutları 
+2. Veritabanı Manipülasyon Komutları
