@@ -1,0 +1,6 @@
+SELECT Komutu : Tablodan veri çekmek için kullanılmaktadır.
+SELECT KOLON1,KOLON2 FROM TABLO_ADI  şeklinde kullanılır.
+
+Örnek :
+ SELECT CUSTOMERNAME FROM CUSTOMER WHERE CITY='AFYON'
+ WHERE : Burada where şart belirmek için kullanılır.
