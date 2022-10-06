@@ -1,0 +1,11 @@
+Bir tabloda güncelleme yapmak için kullanılır.
+UPDATE TABLO_ADI SET SÜTUN1=DEĞER1,SÜTUN2=DEĞER2 şeklinde kullanılmaktadır.
+
+Örnek : 
+UPDATE CUSTOMER SET NATION='TR' , AGE=25 
+
+Örnek :
+UPDATE CUSTOMER SET GENDER='ERKEK' WHERE GENDER='E' 
+
+Örnek :
+UPDATE CUSTOMER SET GENDER='KIZ' WHERE GENDER='K'
