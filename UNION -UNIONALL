@@ -1,0 +1,16 @@
+UNION :  iki veya daha fazla SELECT komutunun sonuç kümesini birleştirir
+ORNEK : 
+
+
+SELECT NAMES,SURNAME FROM INSAN   
+UNION  
+SELECT NAMES,SURNAME FROM INSAN1
+
+
+UNION ALL : VERİTABANI SORGUMUZ DA Tekrar eden değerlere izin vermek için UNION ALL kullanılır
+
+
+
+SELECT NAMES,SURNAME FROM INSAN   
+UNION  ALL
+SELECT NAMES,SURNAME FROM INSAN1
