@@ -1,0 +1,4 @@
+ SET STATISTICS IO ON
+SELECT Name_Surname FROM Employe.[dbo].[CustomerName] 
+WHERE Job_Title LIKE 'Analyst II' AND Department 
+LIKE 'Sales' AND Business_Unit LIKE 'Manufacturing' AND Gender LIKE 'Male' ORDER BY Name_Surname
