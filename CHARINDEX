@@ -1,0 +1,6 @@
+DECLARE @document varchar(64)
+
+SELECT @document = 'Reflectors are vital safety' +
+                   ' components of your bicycle.'
+SELECT CHARINDEX('bicycle', @document)
+GO
